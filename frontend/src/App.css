@@ -1,0 +1,56 @@
+body {
+  background:#0f172a;
+  color:white;
+  font-family:Segoe UI, sans-serif;
+}
+
+.container{
+  max-width:1100px;
+  margin:auto;
+  padding:30px;
+}
+
+h1{
+  text-align:center;
+  margin-bottom:30px;
+}
+
+button{
+  margin-left:10px;
+  padding:8px 18px;
+  background:#2563eb;
+  border:none;
+  color:white;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+.section{
+  background:#1e293b;
+  padding:20px;
+  border-radius:12px;
+  margin-top:25px;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:20px;
+}
+
+ul{
+  line-height:1.8;
+}
+.heatmap{
+  display:grid;
+  grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+  gap:15px;
+}
+
+.heatcell{
+  padding:20px;
+  border-radius:10px;
+  text-align:center;
+  color:white;
+  font-weight:bold;
+}
